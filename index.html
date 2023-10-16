@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularz</title>
+    <style>
+        body,html{
+            height: 1000px;
+            background: linear-gradient(to bottom right, #33ccff 0%, #ff99cc 100%); 
+        }
+        form{
+            width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+            border: solid black 1px;
+            padding: 20px;
+            background-color: lightyellow;
+            text-align: center;
+            border-radius: 10px;
+        }
+        #nazwisko{
+            background-color: bisque;
+        }
+        #imie{
+            background-color: bisque;  
+        }
+        #email{
+            background-color: bisque;
+        }
+        #password{
+            background-color: bisque;
+        }
+        #submit{
+            color: red;
+            background-color: brown;
+        }
+
+    </style>
+</head>
+<body>
+     <form>
+      
+        <label for="imie"><b>Imię:</b></label>
+        <br>
+        <input type="text" id="imie" name="imie" placeholder="Tutaj wpisz swoję imie">
+        <br>
+        <label for="nazwisko"><b>Nazwisko:</b></label>
+        <br>
+        <input type="text" name="nazwisko" id="nazwisko" placeholder="Tutaj wpisz swoje nazwisko">
+        <br>
+        <label for="email"><b>Email:</b></label>
+        <br>
+        <input type="mail" name="email" id="email" placeholder="Tutaj wpisz swojego maila">
+        <br>
+        <label for="password"><b>Hasło:</b></label>
+        <br>
+        <input type="password" name="password" id="password" placeholder="Podaj hasło">
+        <br>
+        <label for="color"><b>Wybierz swój kolor:</b></label>
+        <input type="color" name="color" id="color" value="#00FF00">
+        <br>
+        <input type="submit" name="submit" id="submit" value="WYŚLIJ!">
+        <br>
+
+
+
+
+    </form>
+</body>
+</html>
